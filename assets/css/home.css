@@ -1,9 +1,9 @@
-@import url('https://fonts.googleapis.com/css2?family=Satisfy&family=Shippori+Antique+B1&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Readex+Pro:wght@500&display=swap');
 html {
     scroll-behavior: smooth;
     }
 body {
-    font-family: 'Shippori Antique B1', sans-serif;
+    font-family: 'Readex Pro', sans-serif;
     text-align: justify;
     background-color: #fffffa;
 }
@@ -12,11 +12,11 @@ body {
     color: white;
   }
   .nav-link:hover {
-    color: #dbdbdb;
-    border-bottom: solid 1px #dbdbdb;  
+    color: #02c2e4;
+    border-bottom: solid 1px #02c2e4;  
   }
   .nav-link:focus {
-    color: #dbdbdb;
+    color: #02c2e4;
   };
 
 #entrada {
@@ -27,7 +27,7 @@ body {
     display: block; 
     margin-right: auto; 
     margin-left: auto; 
-    width: 250px; 
+    width: 350px; 
     height: 250px;
 }
 #titulo_entrada {
@@ -333,13 +333,13 @@ transform: scale(1.1);
 }
 
 #myFooter {
-    background-color: #198f89;
+    background-color: #014552;
     color: white;
     padding-top: 30px;
 }
 
 #myFooter .footer-copyright {
-    background-color: #126864;
+    background-color: #006577;
     padding-top: 3px;
     padding-bottom: 3px;
     text-align: center;

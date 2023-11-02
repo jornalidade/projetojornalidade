@@ -9,7 +9,7 @@ function saiu_carrossel() {
 
 $(document).ready(function(){
     $('#img_welcome').css('display', 'none');
-    $('#img_welcome').fadeToggle(3000);
+    $('#img_welcome').fadeToggle(1500);
 
     //Sessão de Informações Pessoais
     $("#bttn_descPessoal_mostrar").click(function(){
