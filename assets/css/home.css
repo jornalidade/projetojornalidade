@@ -23,7 +23,7 @@ body {
     padding-top: 100px;
 }
 #img_welcome {
-    padding-top: 80px; 
+    padding-top: 85px; 
     display: block; 
     margin-right: auto; 
     margin-left: auto; 
@@ -38,21 +38,14 @@ body {
     text-align: center;
     font-size: 18px;
 }
-.titulos {
-    border-bottom: 4px #198f89 dotted; 
-    width: 50%;
-    padding-bottom: 10px;
-    text-align: center;
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-}
 .titulos_sessoes {
     text-align: center;
+    color: white;
 }
-.imgs_intro {
-    width: 220px;
-    min-height: 220px;
+.span_titulos_sessoes {
+    background-color: #014552;
+    padding: 10px; 
+    border-radius: 50px;
 }
 .txt_intro {
     width: 50%;
@@ -64,101 +57,32 @@ body {
     width: 200px;
     min-height: 160px;
 }
-.linha_txt {
-    background-color: #198f89;
-    border-width: 3px;
-    width: 40%;
-}
 
-/* SESSÃO 1 - Informações Pessoais */
+/* SESSÃO 1 - Sobre o projeto */
 #info {
-    border-bottom: outset 5px #198f89; 
-    border-top: outset 5px #198f89;
-    border-left: #198f89 5px dashed; 
-    border-right: #198f89 5px dashed; 
+    border-bottom: outset 5px #006577; 
+    border-top: outset 5px #006577;
     padding-bottom: 50px; 
     padding-top: 50px;
-    border-radius: 10%;
+    border-radius: 3%;
 }
-#info_pessoais {
+#img_sobre {
     display: block;
     margin-right: auto;
     margin-left: auto;
-    text-align: center;
-}
-#info_hobbies {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-}
-#txt_perfil {
-    display: none; 
-    text-align: justify;
-    padding-top: 10px;
-}
-#txt_perfil_nome {
-    font-size: 16px;
-}
-#txt_perfil_data {
-    font-size: 16px;
-}
-#txt_perfil_local {
-    font-size: 16px;
-}
-#txt_perfil_local_2 {
-    font-size: 16px;
-}
-#txt_perfil_nac {
-    font-size: 16px;
-}
-#txt_perfil_gen {
-    font-size: 16px;
-}
-
-#txt_hobbies {
-    text-align: justify;
+    padding-top: 15%;
+    width: 450px;
+    min-height: 220px;
 }
 /* */
 
 /* SESSÃO 2 - Formação */
-#formacao {
-    border-bottom: outset 5px #198f89; 
-    border-top: outset 5px #198f89;
-    border-left: #198f89 5px dashed; 
-    border-right: #198f89 5px dashed; 
+#oficinas {
+    border-bottom: outset 5px #006577; 
+    border-top: outset 5px #006577;
     padding-bottom: 50px; 
-    padding-top: 50px; 
-    border-radius: 10%;
-}
-#info_academica {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-}
-#img_academica3 {
-    width: 400px;
-    min-height: 160px;
-}
-#info_profissional {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-}
-#img_profissional2 {
-    width: 200px;
-    min-height: 60px;
-}
-#txt_profissional {
-    text-align: justify;
-}
-#txt_profissional2 {
-    text-align: justify;
-}
-#txt_profissional3 {
-    text-align: justify;
+    padding-top: 50px;
+    border-radius: 3%;
 }
 /* */
 
@@ -404,18 +328,6 @@ transform: scale(1.1);
 
 #myFooter .social-networks a:hover {
     text-decoration: none;
-}
-
-#myFooter .facebook:hover {
-    color: #0077e2;
-}
-
-#myFooter .instagram:hover {
-    color: purple;
-}
-
-#myFooter .twitter:hover {
-    color: #00aced;
 }
 
 #myFooter .btn {
