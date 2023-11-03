@@ -42,6 +42,14 @@ body {
     text-align: center;
     color: white;
 }
+.titulos_oficinas {
+    text-align: center;
+    padding-bottom: 15px;
+}
+.linhas_oficinas {
+    border-bottom: 3px solid #006577;
+    padding-bottom: 10px;
+}
 .span_titulos_sessoes {
     background-color: #014552;
     padding: 10px; 
@@ -53,9 +61,11 @@ body {
     margin-right: auto;
     margin-left: auto;
 }
-.imgs {
-    width: 200px;
-    min-height: 160px;
+.legendas {
+    color: rgb(94, 94, 94);
+    padding-top: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 /* SESSÃO 1 - Sobre o projeto */
@@ -83,6 +93,14 @@ body {
     padding-bottom: 50px; 
     padding-top: 50px;
     border-radius: 3%;
+}
+.imgs_oficinas {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 3%;
+    width: 450px;
+    min-height: 220px;
 }
 /* */
 
