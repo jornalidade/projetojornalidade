@@ -104,102 +104,15 @@ body {
 }
 /* */
 
-/* SESSÃO 3 - Competências */
-#competencias {
-    border-bottom: outset 5px #198f89; 
-    border-top: outset 5px #198f89;
-    border-left: #198f89 5px dashed; 
-    border-right: #198f89 5px dashed; 
+/* SESSÃO 3 - Entrevistas */
+#entrevistas {
+    border-bottom: outset 5px #006577; 
+    border-top: outset 5px #006577;
     padding-bottom: 50px; 
-    padding-top: 50px; 
-    border-radius: 10%;
-}
-#info_competencias {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-}
-#info_idiomas {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
+    padding-top: 50px;
+    border-radius: 3%;
 }
 /* */
-
-#bttn_descPessoal_mostrar {
-    transition: 0.5s;
-    }       
-#bttn_descPessoal_mostrar:hover {
-transform: scale(1.1);
-}
-#bttn_descPessoal_esconder {
-    transition: 0.5s;
-    }           
-#bttn_descPessoal_esconder:hover {
-transform: scale(1.1);
-}
-#bttn_descHobbies_mostrar {
-    transition: 0.5s;
-    }       
-#bttn_descHobbies_mostrar:hover {
-transform: scale(1.1);
-}
-#bttn_descHobbies_esconder {
-    transition: 0.5s;
-    }           
-#bttn_descHobbies_esconder:hover {
-transform: scale(1.1);
-}
-#bttn_descAcademica_mostrar {
-    transition: 0.5s;
-    }       
-#bttn_descAcademica_mostrar:hover {
-transform: scale(1.1);
-}
-#bttn_descAcademica_esconder {
-    transition: 0.5s;
-    }           
-#bttn_descAcademica_esconder:hover {
-transform: scale(1.1);
-}
-#bttn_descProfissional_mostrar {
-    transition: 0.5s;
-    }       
-#bttn_descProfissional_mostrar:hover {
-transform: scale(1.1);
-}
-#bttn_descProfissional_esconder {
-    transition: 0.5s;
-    }           
-#bttn_descProfissional_esconder:hover {
-transform: scale(1.1);
-}
-#bttn_descCompetencias_mostrar {
-    transition: 0.5s;
-    }       
-#bttn_descCompetencias_mostrar:hover {
-transform: scale(1.1);
-}
-#bttn_descCompetencias_esconder {
-    transition: 0.5s;
-    }           
-#bttn_descCompetencias_esconder:hover {
-transform: scale(1.1);
-}
-#bttn_descIdiomas_mostrar {
-    transition: 0.5s;
-    }       
-#bttn_descIdiomas_mostrar:hover {
-transform: scale(1.1);
-}
-#bttn_descIdiomas_esconder {
-    transition: 0.5s;
-    }           
-#bttn_descIdiomas_esconder:hover {
-transform: scale(1.1);
-}
 
 /* PORTFÓLIO - Carrossel de imagens */
 #botao_anterior {
@@ -250,7 +163,7 @@ transform: scale(1.1);
     margin-right: auto;
     margin-left: auto;
     text-align: center;
-    border-bottom: inset 3px #198f89;
+    border-bottom: inset 3px #006577;
     width: 20%;
     padding-bottom: 15px;
 }
