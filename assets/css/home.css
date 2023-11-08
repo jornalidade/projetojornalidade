@@ -80,10 +80,24 @@ body {
     display: block;
     margin-right: auto;
     margin-left: auto;
-    padding-top: 15%;
+    padding-top: 13%;
     width: 450px;
     min-height: 220px;
-    border-radius: 30px;
+    border-radius: 5px;
+}
+#img_sobre2 {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 450px;
+    min-height: 220px;
+    border-radius: 5px;
+}
+#txt_sobre3 {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 10%;
 }
 /* */
 
@@ -99,11 +113,21 @@ body {
     display: block;
     margin-right: auto;
     margin-left: auto;
-    padding-top: 3%;
     width: 450px;
     min-height: 220px;
     border-radius: 30px;
 }
+.imgs_alunos {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    padding-top: 3%;
+    padding: 20px;
+    width: 390px;
+    min-height: 160px;
+    border-radius: 30px;
+}
+
 /* */
 
 /* SESSÃO 3 - Entrevistas */
@@ -116,7 +140,10 @@ body {
 }
 /* */
 
-/* PORTFÓLIO - Carrossel de imagens */
+/* MAIS FOTOS - Carrossel de imagens */
+#txt_mais_fotos {
+    text-align: center;
+}
 #botao_anterior {
     background-color: #595959;
     display: none;
@@ -125,34 +152,31 @@ body {
     background-color: #595959;
     display: none;
 }
+#demo {
+    width: 500px; 
+    min-height: 260px;
+}
 #slide1 {
-    width: 1348px; 
-    height: 657px;
+    width: 500px; 
+    min-height: 260px;
 }
 #slide2 {
-    width: 1348px; 
-    height: 657px;
+    width: 500px; 
+    min-height: 260px;
 }
 #slide3 {
-    width: 1348px; 
-    height: 657px;
+    width: 500px; 
+    min-height: 260px;
 }
 #slide4 {
-    width: 1348px; 
-    height: 657px;
+    width: 500px; 
+    min-height: 260px;
 }
-#titulo_portfolio {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-    border-bottom: inset 3px #198f89;
-    width: 15%;
-    padding-bottom: 15px;
-}
-#txt_portfolio {
-    text-align: center;
-    font-size: 18px;
+.legendas_slides {
+    background-color: #afafafb0;
+    color: #001418;
+    border-radius: 10px;
+    padding: 5px;
 }
 /* */
 
@@ -277,6 +301,12 @@ body {
 
 /* Ajustes para small-devices */
 @media screen and (max-width: 900px) {
+    #txt_sobre2 {
+        display: block;
+        margin-right: auto;
+        margin-left: auto;
+        padding-left: 10%;
+    }
     #info_hobbies {
         padding-top: 50px;
     }
@@ -296,21 +326,25 @@ body {
         width: 350px;
         min-height: 160px;
     }
+    #demo {
+        width: 350px;
+        min-height: 120px;
+    }
     #slide1 {
-        width: 767px; 
-        height: 250px;
+        width: 350px;
+        min-height: 120px;
     }
     #slide2 {
-        width: 767px; 
-        height: 250px;
+        width: 350px;
+        min-height: 120px;
     }
     #slide3 {
-        width: 767px; 
-        height: 250px;
+        width: 350px;
+        min-height: 120px;
     }
     #slide4 {
-        width: 767px; 
-        height: 250px;
+        width: 350px;
+        min-height: 120px;
     }
     #myFooter {
         text-align: center;
@@ -320,26 +354,6 @@ body {
 
 /* Ajustes para large-devices */
 @media screen and (min-width: 1440px) {
-    #demo {
-        width: 1348px; 
-        height: 657px;
-    }
-    #slide1 {
-        width: 1348px; 
-        height: 657px;
-    }
-    #slide2 {
-        width: 1348px; 
-        height: 657px;
-    }
-    #slide3 {
-        width: 1348px; 
-        height: 657px;
-    }
-    #slide4 {
-        width: 1348px; 
-        height: 657px;
-    }
 }
 
 /* */
