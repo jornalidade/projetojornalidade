@@ -313,24 +313,28 @@ body {
         margin-left: auto;
         padding-left: 10%;
     }
-    #info_hobbies {
-        padding-top: 50px;
+    #img_sobre {
+        width: 350px;
+        min-height: 120px;
+        border-radius: 5px;
     }
-    #info_profissional {
-        padding-top: 50px;
+    #img_sobre2 {
+        width: 350px;
+        min-height: 120px;
+        border-radius: 5px;
     }
-    #info_idiomas {
-        padding-top: 50px;
+    .imgs_oficinas {
+        width: 350px;
+        min-height: 120px;
+        border-radius: 30px;
     }
-    #titulo_portfolio {
-        width: 50%;
+    .imgs_alunos {
+        width: 350px;
+        min-height: 120px;
+        border-radius: 30px;
     }
     #titulo_contato {
         width: 50%;
-    }
-    #img_academica3 {
-        width: 350px;
-        min-height: 160px;
     }
     #demo {
         width: 350px;
