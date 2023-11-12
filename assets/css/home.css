@@ -300,7 +300,6 @@ body {
 #myFooter .social-networks a:hover {
     text-decoration: none;
 }
-
 #myFooter .btn {
     color: white;
     background-color: #d84b6b;
@@ -311,6 +310,9 @@ body {
     margin: 0 auto;
     margin-top: 10px;
     line-height: 25px;
+}
+#name_footer:hover {
+    text-decoration: underline 1px rgb(209, 209, 209);
 }
 
 /* Ajustes para small-devices */
