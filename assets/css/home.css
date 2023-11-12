@@ -178,6 +178,14 @@ body {
     width: 500px; 
     min-height: 260px;
 }
+#slide5 {
+    width: 500px; 
+    min-height: 260px;
+}
+#slide6 {
+    width: 500px; 
+    min-height: 260px;
+}
 .legendas_slides {
     background-color: #afafafb0;
     color: #001418;
@@ -353,6 +361,14 @@ body {
         min-height: 120px;
     }
     #slide4 {
+        width: 350px;
+        min-height: 120px;
+    }
+    #slide5 {
+        width: 350px;
+        min-height: 120px;
+    }
+    #slide6 {
         width: 350px;
         min-height: 120px;
     }
