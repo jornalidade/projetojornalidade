@@ -144,6 +144,28 @@ body {
     padding-top: 50px;
     border-radius: 3%;
 }
+.titulos_entrevistas {
+    padding-top: 30px;
+    text-align: center;
+}
+#txt_entrevista_augusto {
+    text-align: justify;
+}
+#txt_entrevista_mariana {
+    text-align: justify;
+}
+#bttn_entrevista2_mostrar {
+    background-color: #006577;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+#bttn_entrevista2_mostrar:hover {
+    background-color: #00849b;
+}
+#entrevista2 {
+    display: none;
+}
 /* */
 
 /* MAIS FOTOS - Carrossel de imagens */

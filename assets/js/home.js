@@ -1,12 +1,10 @@
 function entrou_carrossel() {
   document.getElementById("botao_anterior").style.display = "block";
   document.getElementById("botao_proxima").style.display = "block";
-  document.getElementsByClassName("legendas_slides").style.display = "none";
 }
 function saiu_carrossel() {
   document.getElementById("botao_anterior").style.display = "none";
   document.getElementById("botao_proxima").style.display = "none";
-  document.getElementsByClassName("legendas_slides").style.display = "block";
 }
 
 $(document).ready(function(){
@@ -21,10 +19,14 @@ $(document).ready(function(){
        }
     });
  }
- 
  const titulo = document.querySelector('#titulo_entrada');
  typeWriter(titulo);
 
     $('#img_welcome').css('display', 'none');
     $('#img_welcome').fadeToggle(1500);
+
+    $("#bttn_entrevista2_mostrar").click(function(){
+      $("#bttn_entrevista2_mostrar").hide();
+      $("#entrevista2").slideDown();
+    });
   });
