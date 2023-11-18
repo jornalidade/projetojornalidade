@@ -150,6 +150,9 @@ body {
     padding-top: 50px;
     border-radius: 3%;
 }
+#entrevista1 {
+    padding-bottom: 30px;
+}
 .titulos_entrevistas {
     padding-top: 30px;
     text-align: center;
