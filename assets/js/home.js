@@ -25,8 +25,13 @@ $(document).ready(function(){
     $('#img_welcome').css('display', 'none');
     $('#img_welcome').fadeToggle(1500);
 
-    $("#bttn_entrevista2_mostrar").click(function(){
-      $("#bttn_entrevista2_mostrar").hide();
-      $("#entrevista2").slideDown();
+    $("#bttn_entrevista_augusto_show").click(function(){
+      $("#bttn_entrevista_augusto_show").hide();
+      $("#txt_entrevista_augusto_hidden").slideDown();
+    });
+
+    $("#bttn_entrevista_mariana_show").click(function(){
+      $("#bttn_entrevista_mariana_show").hide();
+      $("#txt_entrevista_mariana_hidden").slideDown();
     });
   });

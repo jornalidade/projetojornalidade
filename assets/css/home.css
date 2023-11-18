@@ -107,7 +107,7 @@ body {
 }
 /* */
 
-/* SESSÃO 2 - Formação */
+/* SESSÃO 2 - Oficinas */
 #oficinas {
     border-bottom: outset 5px #006577; 
     border-top: outset 5px #006577;
@@ -133,6 +133,12 @@ body {
     min-height: 160px;
     border-radius: 30px;
 }
+#img2_oficina2 {
+    padding-top: 30%;
+}
+#img3_oficina2 {
+    padding-top: 30%;
+}
 
 /* */
 
@@ -148,22 +154,40 @@ body {
     padding-top: 30px;
     text-align: center;
 }
-#txt_entrevista_augusto {
-    text-align: justify;
+#retrato_augusto {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
-#txt_entrevista_mariana {
-    text-align: justify;
+#retrato_mariana {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
 }
-#bttn_entrevista2_mostrar {
+#bttn_entrevista_augusto_show {
     background-color: #006577;
     display: block;
     margin-right: auto;
     margin-left: auto;
 }
-#bttn_entrevista2_mostrar:hover {
+#bttn_entrevista_augusto_show:hover {
     background-color: #00849b;
 }
-#entrevista2 {
+#bttn_entrevista_mariana_show {
+    background-color: #006577;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+#bttn_entrevista_mariana_show:hover {
+    background-color: #00849b;
+}
+#txt_entrevista_augusto_hidden {
+    text-align: justify;
+    display: none;
+}
+#txt_entrevista_mariana_hidden {
+    text-align: justify;
     display: none;
 }
 /* */
@@ -201,10 +225,6 @@ body {
     min-height: 260px;
 }
 #slide5 {
-    width: 500px; 
-    min-height: 260px;
-}
-#slide6 {
     width: 500px; 
     min-height: 260px;
 }
@@ -359,6 +379,12 @@ body {
         width: 350px;
         min-height: 120px;
         border-radius: 30px;
+    }
+    #img2_oficina2 {
+        padding-top: 5%;
+    }
+    #img3_oficina2 {
+        padding-top: 5%;
     }
     .imgs_alunos {
         width: 350px;
