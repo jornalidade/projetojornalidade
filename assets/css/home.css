@@ -157,15 +157,28 @@ body {
     padding-top: 30px;
     text-align: center;
 }
+.legendas_retratos {
+    color: rgb(94, 94, 94);
+    padding-top: 5px;
+    padding-left: 50px;
+    padding-right: 50px;
+    text-align: center;
+}
 #retrato_augusto {
     display: block;
     margin-right: auto;
     margin-left: auto;
+    width: 270px;
+    min-height: 220px;
+    border-radius: 50px;
 }
 #retrato_mariana {
     display: block;
     margin-right: auto;
     margin-left: auto;
+    width: 270px;
+    min-height: 220px;
+    border-radius: 50px;
 }
 #bttn_entrevista_augusto_show {
     background-color: #006577;
