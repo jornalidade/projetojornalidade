@@ -133,15 +133,6 @@ body {
     min-height: 160px;
     border-radius: 30px;
 }
-#img2_oficina2 {
-    padding-top: 72%;
-}
-#img3_oficina2 {
-    padding-top: 10%;
-}
-#img4_oficina2 {
-    padding-top: 18%;
-}
 
 /* */
 
@@ -398,15 +389,6 @@ body {
         width: 350px;
         min-height: 120px;
         border-radius: 30px;
-    }
-    #img2_oficina2 {
-        padding-top: 5%;
-    }
-    #img3_oficina2 {
-        padding-top: 5%;
-    }
-    #img4_oficina2 {
-        padding-top: 5%;
     }
     .imgs_alunos {
         width: 350px;
