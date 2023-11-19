@@ -133,7 +133,11 @@ body {
     min-height: 160px;
     border-radius: 30px;
 }
-
+.legendas_gravacoes {
+    color: rgb(94, 94, 94);
+    padding: 5px;
+    text-align: center;
+}
 /* */
 
 /* SESSÃO 3 - Entrevistas */
