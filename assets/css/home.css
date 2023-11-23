@@ -146,12 +146,6 @@ body {
     min-height: 160px;
     border-radius: 30px;
 }
-#legenda_img2_oficina4 {
-    color: rgb(94, 94, 94);
-    padding: 5px;
-    text-align: center;
-}
-
 /* */
 
 /* SESSÃO 3 - Entrevistas */
@@ -409,6 +403,11 @@ body {
         border-radius: 30px;
     }
     .imgs_alunos {
+        width: 350px;
+        min-height: 120px;
+        border-radius: 30px;
+    }
+    #img2_oficina4 {
         width: 350px;
         min-height: 120px;
         border-radius: 30px;
