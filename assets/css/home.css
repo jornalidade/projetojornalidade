@@ -138,6 +138,20 @@ body {
     padding: 5px;
     text-align: center;
 }
+#img2_oficina4 {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 400px;
+    min-height: 160px;
+    border-radius: 30px;
+}
+#legenda_img2_oficina4 {
+    color: rgb(94, 94, 94);
+    padding: 5px;
+    text-align: center;
+}
+
 /* */
 
 /* SESSÃO 3 - Entrevistas */
